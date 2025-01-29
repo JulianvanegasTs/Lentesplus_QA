@@ -13,9 +13,8 @@ El objetivo principal es reducir los errores en producción, mejorar la experien
 ## **Características**
 - Pruebas funcionales y de regresión automatizadas usando **Python** y **Selenium**.  
 - Validación de datos contra una base de datos MySQL.  
-- Generación de reportes visuales con **Allure** para análisis de resultados.  
-- Ejecución de pruebas en múltiples navegadores (Chrome y Firefox).  
-- Integración con herramientas CI/CD como **GitHub Actions** (opcional).  
+- Generación de reportes visuales con **Allure-reports** para análisis de resultados.  
+- Ejecución de pruebas en múltiples navegadores (Chrome y Firefox).
 
 ---
 
@@ -77,8 +76,7 @@ Antes de instalar y ejecutar este proyecto, asegúrate de tener instalado lo sig
 ## **Estructura del proyecto**
 ```plaintext
 lentesplus-qa-automation/
-├── src/                       # Código fuente
-│   ├── pages/                 # Clases de Page Object
+├── src/                       
 │   ├── tests/                 # Scripts de prueba
 │   └── utils/                 # Funciones y utilidades
 ├── reports/                   # Reportes generados por Allure
@@ -121,9 +119,9 @@ allure serve reports/
 ---
 
 ## **Autor/es**
-- **[Tu Nombre]** – QA Automation Engineer  
-  - GitHub: [Tu perfil](https://github.com/tu-usuario)  
-  - LinkedIn: [Tu perfil de LinkedIn](https://linkedin.com/in/tu-perfil)  
+- **Julián Vanegas** – QA Automation Engineer  
+  - GitHub: Julián Vanegas (https://https://github.com/JulianvanegasTs)  
+  - LinkedIn: Julián Vanegas (www.linkedin.com/in/juliánvanegasts) 
 
 ---
 
