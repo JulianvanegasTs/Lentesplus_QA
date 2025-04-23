@@ -14,8 +14,12 @@ driver.maximize_window()
 try:
     driver.get("https://www.lentesplus.com/co/")
     time.sleep(3)
+    
+    # Zoom para pantalla
+    driver.execute_script("document.body.style.zoom='60%'")
+    time.sleep(1)
+    
+    print("✅ Página de Lentesplus")
    
 finally:
     driver.quit()
-
-
